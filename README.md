@@ -38,16 +38,3 @@ INSERT INTO users (name, email)
   VALUES ('Lawrence', 'abcdef@gmail.com','Hostel A','14C'), ('Rohan', 'opqwe@gmail.com','Hostel B','12D'),('Tony', 'zxcvb@gmail.com','Hostel C','9A');
 ```
 
-
-
-## Commands
-
-- GET: `curl http://localhost:3000/users`
-- POST: `curl --data "name=Jerry&email=jerry@example.com" http://localhost:3000/users`
-- PUT: `curl -X PUT -d "name=George" -d "email=george@example.com" http://localhost:3000/users/1`
-- DELETE: `curl -X "DELETE" http://localhost:3000/users/1`
-
-## Author
-
-- [Dhruv Srivastava](https://dhruvsri123.github.io/)
-
