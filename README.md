@@ -1,8 +1,8 @@
-# Demo of the RESTful API I made for the hostel management system. 
+# (Demo)  RESTful API  for the hostel management system. 
 
-#### Since the real application is a property of Mahindra University, I can't share the actual files publically 
+#### Real application is a property of Mahindra University, I can't share the actual files without director's approval 
 
-Implementing CRUD operations on PostgreSQL database on a Node.js application with a server made using Express.js
+Implementing CRUD operations on PostgreSQL database 
 
 
 
