@@ -1,6 +1,6 @@
 # Demo of the RESTful API I made for the hostel management system. 
 
-#### Since the real application is  property of Mahindra University, I couldn't share the actual code files
+#### Since the real application is the property of Mahindra University, I can't share it publically 
 
 Implementing CRUD operations on PostgreSQL database on a Node.js application with a server made using Express.js
 
@@ -40,7 +40,14 @@ INSERT INTO users (name, email)
 
 
 
+## Commands
+
+- GET: `curl http://localhost:3000/users`
+- POST: `curl --data "name=Jerry&email=jerry@example.com" http://localhost:3000/users`
+- PUT: `curl -X PUT -d "name=George" -d "email=george@example.com" http://localhost:3000/users/1`
+- DELETE: `curl -X "DELETE" http://localhost:3000/users/1`
+
 ## Author
 
-- [Dhruv Srivastava](https://www.dhruvsri123.github.io)
+- [Dhruv Srivastava](https://dhruvsri123.github.io/)
 
